@@ -617,8 +617,67 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+.mainGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100vh;
+}
+.showTitle {
+  color: #FF0000;
+  fontWeight: bolder;
+
+}
+.showDetails {
+  color: #7177cc
+}
+.reoccuringShow {
+  color: #65EA81;
+  fontWeight: bolder;
+}
+.showsColumn {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: sans-serif;
+    margin-left: 2vw;
+    color: purple;
+    font-weight: 700;
+    height: 90vh;
+    overflow-y: scroll
+}
+.showsColumn > a {
+  background-color: black;
+  margin: 20px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.showsColumn > a:hover {
+  background-color: white;
+}
+.showsColumn > a:hover > .showTitle, .showsColumn > a:hover >  .showDetails,  .showsColumn > a:hover > .reoccuringShow {
+  color:black;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+@media only screen and (max-width: 600px) {
   html {
     font-size: 100%;
   }
+  .mainGrid {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    height: 100vh;
+  }
 }
+
