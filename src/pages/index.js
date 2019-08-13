@@ -28,8 +28,6 @@ const IndexPage = () => (
       <h1>
         Upcoming Shows:
       </h1>
-      <p className='showTitle'>Big Princess @ PHIT 8/3 7:00 </p>
-      <p className='showTitle'>Show and Tell @ PHIT 8/3 10:00 </p>
       <a href='https://www.facebook.com/events/2970234833296773'><p className='reoccuringShow'> hosting U UP? open mic @ Fergies every sunday 9pm</p>   </a>  
   </div>
   </div>
