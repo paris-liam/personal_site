@@ -24,11 +24,7 @@ const IndexPage = () => (
     <p><a href='https://www.youtube.com/channel/UCe08QHiiy-nKzeceUDVKpCw'>Videos/Standup</a></p>
     <p><a href='https://www.youtube.com/channel/UCKw0pHu2fsuAmFIxXBq3mDg'>Sketch</a></p>
   </div>
-  <div className='showsColumn'>
-      <h1>
-        Upcoming Shows:
-      </h1>
-      <a href='https://www.facebook.com/events/2970234833296773'><p className='reoccuringShow'> hosting U UP? open mic @ Fergies every sunday 9pm</p>   </a>  
+  <div className='showsColumn'>  
   </div>
   </div>
 );
