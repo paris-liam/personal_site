@@ -24,15 +24,10 @@ const IndexPage = () => (
     <p><a href='https://www.youtube.com/channel/UCe08QHiiy-nKzeceUDVKpCw'>Videos/Standup</a></p>
     <p><a href='https://www.youtube.com/channel/UCKw0pHu2fsuAmFIxXBq3mDg'>Sketch</a></p>
   </div>
-  <div className='showsColumn'>  
+  <!--<div className='showsColumn'>  
   <ul>
-   <li><h2>Yes Indeed @ Good Good Comedy 2/8 8:30 & 10 (hosting) </h2></li>
-    <li><h2>Last minute comedy showcase @ Silk City 2/11 9 </h2></li>
-     <li><h2> Outta Sight @ Fergies Pub 2/12 9 </h2></li>
-       <li><h2> Do you wanna talk about it? @ Grey Door theater project (Brooklyn) 2/16 7:30</h2></li>
-
   </ul>
-  </div>
+  </div>-->
   </div>
 );
 
