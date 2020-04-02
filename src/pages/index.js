@@ -24,10 +24,10 @@ const IndexPage = () => (
     <p><a href='https://www.youtube.com/channel/UCe08QHiiy-nKzeceUDVKpCw'>Videos/Standup</a></p>
     <p><a href='https://www.youtube.com/channel/UCKw0pHu2fsuAmFIxXBq3mDg'>Sketch</a></p>
   </div>
-  <!--<div className='showsColumn'>  
+  {/*<div className='showsColumn'>  
   <ul>
   </ul>
-  </div>-->
+  </div>*/}
   </div>
 );
 
